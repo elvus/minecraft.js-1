@@ -57,6 +57,7 @@ docker-compose up -d
 
 # Start backend service
 cd server
+prisma deploy
 npm start
 
 # Start frontend service
